@@ -82,31 +82,32 @@ nav ul i{
 }
 
 #search-container input:focus{
-    border-bottom-color:#6759ff;
+    border-bottom-color:#000;
 }
 
 #search-container button{
     padding: 1em 2em;
     margin-left: 1em;
-    background-color: #6759ff;
+    background-color: #000;
     color: #ffffff;
     border-radius: 5px;
     margin-top: 0.5em;
+    cursor: pointer;
 }
 
 /*****************************************/
 
 .button-value{
-    border: 2px solid #6759ff;
+    border: 2px solid #000;
     padding: 1em 2.2em;
     border-radius: 3em;
     background-color: transparent;
-    color: #6759ff;
+    color: #000;
     cursor: pointer;
 }
 
 .active{
-    background-color: #6759ff;
+    background-color: #000;
     color: #ffffff;
 }
 
@@ -120,7 +121,7 @@ nav ul i{
 }
 
 .card{
-    background-color: #ffffff;
+    background-color: rgb(238 239 241);
     max-width: 18em;
     margin-top: 1em;
     padding: 1em;
