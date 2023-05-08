@@ -157,14 +157,15 @@ img{
 /*****************************************/
 
 .product-magnifier-glass {
-  position: absolute;
-  border: 2px solid #ccc;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  cursor: none;
-  display: none;
-}
-
+    position: absolute;
+    border: 1px solid #ccc;
+    width: 300px; /* increase the width to make the magnifying glass stronger */
+    height: 300px; /* increase the height to make the magnifying glass stronger */
+    z-index: 999;
+    display: none;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-size: 800% 800%;
+  }
+  
   
